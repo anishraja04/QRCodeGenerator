@@ -1,0 +1,65 @@
+/* Corporate-grade minimalist aesthetic */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f6fa;
+  color: #34495e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 5% auto 0;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+input, button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  background: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#qr-output {
+  margin-top: 1.5rem;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  padding: 10;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  background: transparent;
+}
